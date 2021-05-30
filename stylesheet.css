@@ -1,4 +1,9 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-center {
     display: block;
     position: absolute;
     left: 50%;
@@ -8,6 +13,12 @@ body {
 h1 {
     display: flex;
     justify-content: center;
+}
+
+#github-link {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #dog-image {
